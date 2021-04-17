@@ -5,7 +5,8 @@ import pandas_datareader as web
 import datetime as dt
 
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
+#from tensorflow.keras.models import Sequential
+from sklearn.ensemble import RandomForestClassifier
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 
 #load data
